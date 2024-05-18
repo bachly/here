@@ -1,0 +1,95 @@
+This is a NextJS page "page.tsx". It is a Permission Form for a Leadership Bootcamp.
+
+It is a multi-step form, built with Radix UI and React Hook Form.
+
+These are the steps & fields:
+
+1/ Step 1: "Boot's information" 
+
+(All fields below are marked as required with the red asterisk, unless stated otherwise)
+
+Full Name
+Gender (2 choices: Male or Female)
+Date of birth
+Age at time of bootcamp (This is a disabled field. It is automatically calculated by the formula "Current Year - Date of birth".)
+Residential Address
+Contact  Number
+T-shirt Size (Radio boxes of XS, S, M, L, XL, XXL or Other)
+If they select Other in T-shirt Size, an additional text field is rendered, to specify the Other Size.
+Is the Boot able to swim? (2 choices: Yes or No)
+
+2/ Step 2: "Parent / Guardian Information"
+
+(All fields below are marked as required with the red asterisk, unless stated otherwise)
+
+Full Name
+Contact Number
+Email Address
+
+3/ Step 3: "Church Information"
+
+(All fields below are marked as required with the red asterisk, unless stated otherwise)
+
+Which church do you attend?
+Pastor's Name
+Pastor's Contact Number
+
+4/ Step 4: "Emergency Contact"
+
+(All fields below are marked as required with the red asterisk, unless stated otherwise)
+
+Sub-heading: Please provide details of two emergency contacts
+
+Section heading: Primary Emergency
+Contact Name
+Contact Number
+
+Section heading: Secondary Emergency
+Contact Name
+Contact Number
+
+5/ Step 5: Health history
+
+In the past 12 months, have you been hospitalised? 
+- Select Yes or No (Name of field: "Hospitalised")
+- If yes is selected, show additional field (Name of field: "HospitalisedDetails", Label: "Please provide further details")
+
+In the past 12 months, have you had any injuries requiring medical treatment?
+- Select Yes or No (Name of field: "Injuries")
+- If yes is selected, show additional field (Name of field: "InjuriesDetails", Label: "Please provide further details")
+
+Have you had a chronic illness?
+- Select Yes or No (Name of field: "ChronicIllness")
+- If yes is selected, show additional field (Name of field: "ChronicIllnessDetails", Label: "Please provide further details")
+
+Do you take medication regularly?
+- Select Yes or No (Name of field: "Medication")
+- If yes is selected, show additional field (Type of field: Textarea, Name of field: "MedicationDetails", Label: "Pleaes provide further details")
+- Extra note for this field: "All neccessary medications must be bought in commercially labelled packaging (NO loose pills in plastic bag).
+These will be signed in with medical staff on registration and dispensed by medical staff during the camp. Excess medications will be
+returned to Boots at the end of the camp"  
+
+Do you have any limitations to participate in sports/physical activities?
+- Select Yes or No (Name of field: "Limitations")
+- If yes is selected, show additional field (Name of field: "LimitationsDetails", Label: "Please provide further details")
+
+Are you allergic to any medications, food, insects, or plants?
+- Select Yes or No (Name of field: "Allergies")
+- If yes is selected, show additional field (Name of field: "AllergiesDetails", Label: "Please provide further details")
+
+Year of last tetanus shot/booster?
+- Select year (Name of field: LastBoosterYear)
+
+Name of family physician
+
+Contact number of family physician
+
+6/ Review
+
+
+Can you generate the code for the above Steps?
+
+- It is a multi-step form, so that the user can navigate between the steps, and the information is preserved.
+- Also show a progress indicator
+- When the user submits the form, send all information to an AirTable. Give code for this process as well.
+
