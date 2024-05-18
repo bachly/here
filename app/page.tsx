@@ -27,7 +27,7 @@ export default function Web() {
           <div className="mx-auto place-self-center">
             <div className="text-center font-bold mb-12 text-xl md:text-2xl xl:text-3xl">Here.li</div>
             <h1 className="mb-4 max-w-2xl text-4xl font-extrabold leading-none tracking-tight dark:text-white md:text-5xl xl:text-6xl">
-              One-page funnels with a memorable link
+              One-page bio page with memorable link & funnel builder
             </h1>
             <p className="mb-6 max-w-2xl font-light text-gray-500 dark:text-gray-400 md:text-lg lg:mb-8 lg:text-xl">
               Create 1-page funnels with Here.li, featuring a memorable link that drives conversions and simplifies your online marketing strategy. Boost engagement and sales effortlessly with this easy-to-use solution.
